@@ -1,0 +1,38 @@
+html {
+    background-color: rgb(74, 72, 207);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.mpboost {
+    margin: 0 auto;
+    height: 400px;
+    width: 900px;
+    display: flex;
+    background-color: rgb(18, 18, 18);
+}
+.mpboost__content {
+    padding: 70px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+.mpboost__content_reverse {
+    flex-direction: column-reverse;
+}
+.mpboost__button {
+    color: #fff;
+    width: 30%;
+    height: 40px;
+    margin: auto;
+    transform: translateY(-50%);
+    background-color: rgb(74, 72, 207); 
+    border-radius: 9999px;
+    border: none; 
+    outline: none;
+}
